@@ -23,7 +23,7 @@ pip install onnx-simplifier>=0.3.6 --user
 
 #Packages required to handle ONNX-->TRT (on target device)
 pip install nvidia-pyindex
-pip install --upgrade nvidia-tensorrt # TensorRT 8.2.1 or higher required
+pip install --upgrade nvidia-tensorrt # TensorRT 8.2.1 or higher required for NMS plugin
 pip install pycuda
 ```
 
